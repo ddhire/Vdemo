@@ -6,7 +6,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 class VdemoApplicationTests {
-	private ReviewAnalyserApplication analyser = new ReviewAnalyserApplication();
+	private VdemoApplication analyser = new VdemoApplication();
     @Test	 
     public void testWordCount() {     	 
    	 assertEquals(7,analyser.getWordCount("Train to win in the digital economy"));	 
